@@ -9,17 +9,22 @@ The challenge is to beat the in-house system developed by Orange Labs. It is an 
 # Challenges: 
 
 1. Highly Imbalanced data (To many -1 (False) labels and less of 1 (True) labels). <br/>
-2. Too many null values in each feature. There are 223 features in a train dataset and what I did I applied a filter to each one of the feature containing more than 80 percent of null values then removed that feature. You will be amazed that after this process I was left with only 73 features. And then......................<br/>
+2. Too many null values in each feature. There are 230 features in a train dataset and what I did I applied a filter to each one of the feature containing more than 80 percent of null values then removed that feature. You will be amazed that after this process I was left with only 73 features. And then......................<br/>
 
-![Alt Text](https://tenor.com/view/pokemon-confused-psyduck-gif-5762799.gif)
+![Alt Text](https://tenor.com/view/pokemon-confused-psyduck-gif-5762799.gif) <br/>
+
 
 # Approach:
  
-It seems to be very challenging problem when you first encounter the dataset and you know what it is. This project for me was the most challenging and entertaining. 
+It seems to be very intuitive problem when you first encounter the dataset. This project for me was the most challenging and entertaining. Solving Null values problem even after removing features containing more than 80% of nan values is in itself an intricate problem. To solve above mention challenges I read winning teams research paper. Everyone has different solution but every solution in itself is so insightful. I have done some feature engineering techniques based on papers and also implemented some of mine too. In my notebook and blog I have mentioned that in detail. 
 
+Data Preparation is always consider to be a prime steps and we machine learning engineer spend most of our time in preprocessing and perparation of data. Feature Engineering is the most important part of data preparation. Applying algorithms is a trivial thing which anyone can do but fine tuning our model which can work best for our dataset is a challenging part. 
+
+I have applied some great algorithms to get better results like RandomForest, XGBoost, LightGBM, Dense Neural Network.
 
 # Refrences:
 1. Data is available here https://www.kdd.org/kdd-cup/view/kdd-cup-2009 <br/>
 2. Some research paper to read : <br/>
   a. http://proceedings.mlr.press/v7/guyon09/guyon09.pdf <br/>
   b. http://proceedings.mlr.press/v7/niculescu09/niculescu09.pdf <br/>
+3. I have written a blog on my above project https://medium.com/@pathakvishnudutt123/customer-relationship-prediction-kdd-cup-2009-2248d83e9d32. Feel free to read it. Any question or doubt post it on comment section in blog.
