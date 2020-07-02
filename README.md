@@ -11,7 +11,7 @@ The challenge is to beat the in-house system developed by Orange Labs. It is an 
 1. Highly Imbalanced data (To many -1 (False) labels and less of 1 (True) labels). <br/>
 2. Too many null values in each feature. There are 223 features in a train dataset and what I did I applied a filter to each one of the feature containing more than 80 percent of null values then removed that feature. You will be amazed that after this process I was left with only 73 features. And then......................<br/>
 
-![Alt Text](https://www.buzzfeed.com/katyherman/headache-sufferers-tell-us-your-tips?utm_source=dynamic&utm_campaign=bfsharecopy&sub=0_124231589#124231589)
+![Alt Text](https://tenor.com/ylkx.gif)
 
 # Approach:
  
